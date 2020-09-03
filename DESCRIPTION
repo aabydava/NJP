@@ -1,0 +1,21 @@
+Package: NJP
+Type: Package
+Title: Common functions for Northwestern Juvenile Project
+Version: 0.1.0
+Author: David Aaby
+Maintainer: David Aaby <david.aaby@northwestern.edu>
+Description: Functions for commonly used analyses and survey weighting function that adjusts for nonresponse.
+Depends: R (>= 3.5)
+Imports:
+    survey (>= 3.35-1), 
+    graphics,
+    utils,
+    stats,
+    grDevices,
+    methods,
+    datasets,
+    base
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
